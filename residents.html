@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Residents | 225 Saint Pauls HOA</title>
+  <meta name="description" content="Resident resources for 225 Saint Pauls HOA." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-title">225 Saint Pauls HOA</span>
+          <span class="brand-subtitle">Jersey City, NJ</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="residents.html">Residents</a>
+        <a class="nav-link" href="documents.html">Documents</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <h1>Resident Resources</h1>
+      <p class="lead">Helpful info for day-to-day living. (You can customize every section.)</p>
+
+      <div class="grid grid-2">
+        <div class="card">
+          <h2 id="move">Move-in / Move-out</h2>
+          <ul class="list">
+            <li>Reserve elevator / loading area in advance.</li>
+            <li>Use protective padding for elevators and hallways.</li>
+            <li>Submit required move forms to management (if applicable).</li>
+          </ul>
+          <p class="muted">Tip: Add PDFs/forms to the Documents page.</p>
+        </div>
+
+        <div class="card">
+          <h2 id="packages">Packages & Deliveries</h2>
+          <ul class="list">
+            <li>Confirm delivery address and include unit number.</li>
+            <li>Pick up packages promptly to reduce clutter.</li>
+            <li>Report missing deliveries to the carrier first.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2 id="amenities">Amenities</h2>
+          <ul class="list">
+            <li>Gym: follow posted rules and hours.</li>
+            <li>Pool: seasonal; residents + guests only.</li>
+            <li>Common areas: keep clean and respectful.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2 id="parking">Parking</h2>
+          <ul class="list">
+            <li>Follow assigned parking rules (if applicable).</li>
+            <li>No blocking fire lanes or entrances.</li>
+            <li>Report unauthorized vehicles to management.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="callout" style="margin-top: 20px;">
+        <h2>Want this page to be “editable” without code?</h2>
+        <p>
+          You can keep the site static, but store resident content in a simple JSON file later.
+          For now, this is the fastest low-maintenance approach.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>225 Saint Pauls HOA</strong><br />
+        <span class="muted">Jersey City, NJ 07306</span>
+      </div>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="documents.html">Documents</a>
+        <a href="residents.html">Residents</a>
+      </div>
+      <div class="muted">
+        © <span id="year"></span> 225 Saint Pauls HOA
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

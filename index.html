@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>225 Saint Pauls HOA | Jersey City, NJ</title>
+  <meta name="description"
+    content="Official information hub for owners and residents of 225 Saint Pauls HOA in Jersey City, NJ." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="225 Saint Pauls HOA Home">
+        <img src="assets/img/logo.svg" alt="" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-title">225 Saint Pauls HOA</span>
+          <span class="brand-subtitle">Jersey City, NJ</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="residents.html">Residents</a>
+        <a class="nav-link" href="documents.html">Documents</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Welcome to the official HOA website for 225 Saint Pauls.</h1>
+          <p class="lead">
+            Find building updates, resident resources, documents, and key contacts — designed to be simple, fast, and
+            easy to maintain.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="documents.html">View Documents</a>
+            <a class="btn btn-secondary" href="residents.html">Resident Resources</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-card">
+              <div class="meta-label">Management</div>
+              <div class="meta-value">Rockfort Management</div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-label">Location</div>
+              <div class="meta-value">Journal Square · Jersey City</div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-label">Emergency</div>
+              <div class="meta-value">Call 911</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-label="Announcements">
+          <div class="panel-header">
+            <h2 class="panel-title">Announcements</h2>
+            <p class="panel-subtitle">Latest updates from the HOA</p>
+          </div>
+
+          <div id="announcements" class="panel-body">
+            <!-- JS will render announcements here -->
+          </div>
+
+          <div class="panel-footer">
+            <small class="muted">Last updated: <span id="last-updated">—</span></small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Quick links</h2>
+        <div class="grid">
+          <a class="card" href="residents.html#move">
+            <h3>Move-in / Move-out</h3>
+            <p>Instructions, elevator reservations, and required forms.</p>
+          </a>
+          <a class="card" href="contact.html#maintenance">
+            <h3>Maintenance Requests</h3>
+            <p>How to submit building issues and service requests.</p>
+          </a>
+          <a class="card" href="documents.html#rules">
+            <h3>House Rules</h3>
+            <p>Noise, common areas, deliveries, and other guidelines.</p>
+          </a>
+          <a class="card" href="documents.html#minutes">
+            <h3>Meeting Minutes</h3>
+            <p>Recent board meeting minutes and community notes.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2>How this site works</h2>
+        <div class="two-col">
+          <div>
+            <p>
+              This website is a <strong>static site</strong> hosted on GitHub Pages. Updates are as easy as editing text
+              files
+              in GitHub or VS Code and pushing changes.
+            </p>
+            <ul class="list">
+              <li>Fast loading and mobile-friendly</li>
+              <li>Low cost (domain only)</li>
+              <li>No database or server maintenance</li>
+            </ul>
+          </div>
+          <div class="callout">
+            <h3>Editing announcements</h3>
+            <p>
+              Announcements are stored in <code>assets/js/main.js</code>. Add a new announcement in one place and it
+              shows on the homepage.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>225 Saint Pauls HOA</strong><br />
+        <span class="muted">Jersey City, NJ 07306</span>
+      </div>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="documents.html">Documents</a>
+        <a href="residents.html">Residents</a>
+      </div>
+      <div class="muted">
+        © <span id="year"></span> 225 Saint Pauls HOA
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | 225 Saint Pauls HOA</title>
+  <meta name="description" content="Contact information for 225 Saint Pauls HOA and building management." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-title">225 Saint Pauls HOA</span>
+          <span class="brand-subtitle">Jersey City, NJ</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="residents.html">Residents</a>
+        <a class="nav-link" href="documents.html">Documents</a>
+        <a class="nav-link active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <h1>Contact</h1>
+      <p class="lead">Use this page for HOA and management contact details.</p>
+
+      <div class="grid grid-2">
+        <div class="card">
+          <h2>HOA Board</h2>
+          <p class="muted">Replace with current board contact info.</p>
+          <ul class="list">
+            <li><strong>Email:</strong> <a href="mailto:hoa@example.com">hoa@example.com</a></li>
+            <li><strong>Office hours:</strong> TBD</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Building Management</h2>
+          <p class="muted">Replace with verified management details.</p>
+          <ul class="list">
+            <li><strong>Company:</strong> Rockfort Management</li>
+            <li><strong>Phone:</strong> <a href="tel:+1XXXXXXXXXX">(XXX) XXX-XXXX</a></li>
+            <li><strong>Email:</strong> <a href="mailto:management@example.com">management@example.com</a></li>
+          </ul>
+        </div>
+
+        <div class="card" id="maintenance">
+          <h2>Maintenance Requests</h2>
+          <p>Recommended process:</p>
+          <ol class="list">
+            <li>For emergencies: call 911.</li>
+            <li>For urgent building issues: call management.</li>
+            <li>For non-urgent issues: email management with unit number, details, and photos.</li>
+          </ol>
+        </div>
+
+        <div class="card">
+          <h2>Emergency</h2>
+          <ul class="list">
+            <li><strong>Police / Fire / Medical:</strong> 911</li>
+            <li><strong>Gas Leak:</strong> Utility emergency line</li>
+            <li><strong>Power Outage:</strong> Utility outage line</li>
+          </ul>
+          <p class="muted">Fill in the correct numbers once confirmed.</p>
+        </div>
+      </div>
+
+      <div class="callout" style="margin-top: 20px;">
+        <h2>Optional: Contact form</h2>
+        <p>
+          A pure static site can’t “send” emails without a service. If you want a form,
+          use Formspree (easy) or Netlify Forms (if hosting on Netlify).
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>225 Saint Pauls HOA</strong><br />
+        <span class="muted">Jersey City, NJ 07306</span>
+      </div>
+      <div class="footer-links">
+        <a href="contact.html">Contact</a>
+        <a href="documents.html">Documents</a>
+        <a href="residents.html">Residents</a>
+      </div>
+      <div class="muted">
+        © <span id="year"></span> 225 Saint Pauls HOA
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
